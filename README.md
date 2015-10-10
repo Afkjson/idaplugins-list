@@ -51,6 +51,8 @@ I'll be organizing the plugins this weekend. Please submit PRs if you have any o
 
 * [EFI Scripts](https://github.com/danse-macabre/ida-efitools): Some IDA scripts and tools to assist with reverse engineering EFI executables.
 
+* [elf32mod] (http://deroko.phearless.org/rce.html):  IDA Loader plugin to properly load ELF32 files which don't have Section Header/or it's corrupted.
+
 * [EtherAnnotate](https://github.com/inositle/etherannotate_ida): Parses the specialized instruction trace files that are generated using the EtherAnnotate Xen modification (http://github.com/inositle/etherannotate_xen).  From the instruction trace, register values and code coverage of the run-time information are visualized in IDA Pro through instruction comments and line colorations.
 
 * [Extract Macho-O](https://github.com/gdbinit/ExtractMachO): This is a very simple IDA plugin to extract all Mach-O binaries contained anywhere in the disassembly.
